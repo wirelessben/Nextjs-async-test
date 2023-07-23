@@ -5,7 +5,7 @@ const maxIteration = Math.pow(2,3);
 let iteration = 0;
 var currentValue = 0;
 
-console.time("setImmediate")
+console.time("setTimeout")
 
 while(iteration < maxIteration){
     setTimeout(()=>{
@@ -16,4 +16,4 @@ while(iteration < maxIteration){
 
 }
 
-console.timeEnd("setImmediate")
+console.timeEnd("setTimeout")
