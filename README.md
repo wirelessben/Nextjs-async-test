@@ -10,9 +10,12 @@ https://github.com/vercel/next.js/blob/2b497413087c56dedb3e04f77ea0deebb5d12d0b/
 ### How to run.
 
 Open up the existing code space and 
-```bash
+```fuckyou
+@EnderKilledYou ➜ /workspaces/NEXTJSISDOGWATER (main) $ node just_async.js 
+just async: 0.058ms
 @EnderKilledYou ➜ /workspaces/NEXTJSISDOGWATER (main) $ node setTimeout.js 
-setTimeout: 0.418ms
+setTimeout: 0.412ms
 @EnderKilledYou ➜ /workspaces/NEXTJSISDOGWATER (main) $ node setImmediate.js 
-setImmediate: 0.23ms
+setImmediate: 0.277ms
+@EnderKilledYou ➜ /workspaces/NEXTJSISDOGWATER (main) $ node just_async.js
 ```
