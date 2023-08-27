@@ -1,13 +1,13 @@
 
 
 
-const maxIteration = Math.pow(2,3);
+require('./constants.js');
 let iteration = 0;
 var currentValue = 0;
 
 console.time("just async")
 
-while(iteration < maxIteration){
+while(iteration < maxIterations){
     (async function t(){
         currentValue = currentValue + 1;
 

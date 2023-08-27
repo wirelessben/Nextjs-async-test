@@ -1,13 +1,13 @@
 
 
 
-const maxIteration = Math.pow(2,3);
+require('./constants.js');
 let iteration = 0;
 var currentValue = 0;
 
 console.time("setImmediate")
 
-while(iteration < maxIteration){
+while(iteration < maxIterations){
     setImmediate(()=>{
         currentValue = currentValue + 1;
 
